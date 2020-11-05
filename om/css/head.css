@@ -1,0 +1,52 @@
+body{
+	background-image: url("../res/background/bg6.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Bree Serif',"Lucida Console", 'serif';
+	padding-bottom: 0px;
+	padding-top: 0.5em;
+	font-size: 3em;
+	text-shadow: 3px 3px 3px #66b3ff;
+}
+
+
+#login{
+	padding-left: 12em;
+	float: left;
+}
+
+#signup{
+	padding-right: 8em;
+	float: right;
+}
+
+/*
+.signin{
+	padding: 3em;
+	float: bottom;
+}
+*/
+
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	background: rgba(0,0,0,0.5);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 4px;
+}
+
+.click{
+	border: 1px solid rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.9);
+}
