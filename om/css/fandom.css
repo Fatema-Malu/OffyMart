@@ -1,0 +1,95 @@
+body{
+	background-image: url("../res/background/bg6.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+}
+
+#header{
+position: relative;
+top: 0px;
+font-family:'Righteous', 'Agency FB', cursive;
+font-size: 70px;
+padding-left: 23%;
+}
+
+#got{
+width:375px;
+height:350px;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+font-family:Verdana;
+font-size:20px;
+text-align:center;
+margin-top: 10px;
+margin-bottom:10px;
+float:left;
+}
+
+#hp{
+width:375px;
+height:350px;
+background-color: rgba(0, 0, 0, 0.5);
+font-family:Verdana;
+font-size:20px;
+border-radius: 15px;
+text-align:center;
+margin-top: 10px;
+margin-bottom:10px;
+float: right;
+}
+
+#hg{
+width:375px;
+height:350px;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+font-family:Verdana;
+font-size:20px;
+text-align:center;
+margin-top: 10px;
+margin-bottom:10px;
+float:right;
+}
+
+img.pic{
+border-radius: 15px;
+width:350px;
+height:240px;
+position:relative;
+left:2px;
+top:20px;
+}
+
+p{
+	color: white;
+	font-size: 1.4em;
+	padding-top: 1em;
+}
+#login{
+	float:right;
+}
+
+/* LOGOUT BUTTON STARTS */
+#logoutButton{
+	background-color: rgba(0, 0, 0, 0.6);
+	min-width: 100px;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+}
+#logoutButton:hover{
+	background-color:rgba(0, 0, 0, 0.6);
+	position:relative;
+	top:5px;
+}
+
+/* LOGOUT BUTTON ENDS */
