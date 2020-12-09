@@ -25,12 +25,12 @@
 
 
 #sidebar li a.active {
-    background-color: #4CAF50;
+    background-color: rgba(0,0,0,0.6);
     color: white;
 }
 
 #sidebar li a:hover:not(.active) {
     /*background-color: #555;*/
-    background-color: #73e567;
+    background-color: rgba(0,0,0,0.6);
     color: white;
 }

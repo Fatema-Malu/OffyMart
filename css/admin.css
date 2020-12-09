@@ -1,5 +1,5 @@
 body{
-	background-image: url("../res/background/bg1.jpg");
+	background-image: url("../res/background/bg6.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;	
@@ -16,7 +16,7 @@ padding-left: 30%;
 #website{
 width:800px;
 height:150px;
-background-color: #ffc0cb;
+background-color: rgb(0,0,0,0.3);
 border-radius: 15px;
 font-family: 'Gloria Hallelujah', 'Verdana', cursive;
 font-size:40px;
@@ -30,7 +30,7 @@ opacity: 0.9;
 #inventory{
 width:800px;
 height:150px;
-background-color: #00bfff;
+background-color: rgb(0,0,0,0.4);
 border-radius: 15px;
 font-family: 'Gloria Hallelujah', 'Verdana', cursive;
 font-size:40px;
@@ -42,12 +42,12 @@ opacity: 0.9;
 }
 
 p{
-	color: #36842b;
+	color: #FFF;
 }
 
 /* LOGOUT BUTTON STARTS */
 #logoutButton{
-	background-color: #00CC99;
+	background-color: rgb(0,0,0,0.4);
 	min-width: 100px;
 	border: none;
 	padding: 10px;
@@ -62,7 +62,7 @@ p{
 	border-radius: 3px;
 }
 #logoutButton:hover{
-	background-color:#44c767;
+	background-color:rgb(0,0,0,0.6);
 	position:relative;
 	top:5px;
 }
